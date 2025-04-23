@@ -3,10 +3,10 @@ const dataList = document.getElementById("dataList");
 
 loadBtn.addEventListener("click", () => {
   const saha = new XMLHttpRequest();
-  // api url: https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json
+  // api url: https://github.com/SajibSaha207/Web-Pro-Assignment/blob/main/get.json
   saha.open(
     "GET",
-    "https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json",
+    "https://github.com/SajibSaha207/Web-Pro-Assignment/blob/main/get.json",
     true
   );
 
